@@ -1,4 +1,4 @@
-package user;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,7 @@ public class User {
 			String driver = "com.mysql.jdbc.Driver";
 			String url = "jdbc:mysql://localhost:3306/database";
 			String user = "root";
-			String password = "root";
+			String password = "123456";
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, user, password);
 			String sql = "select * from user where username=?";
@@ -54,7 +54,7 @@ public class User {
 			String driver = "com.mysql.jdbc.Driver";
 			String url = "jdbc:mysql://localhost:3306/database";
 			String user = "root";
-			String password = "root";// 改为自己的用户名密码和数据库名
+			String password = "123456";// 改为自己的用户名密码和数据库名
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, user, password);
 			String sql = "INSERT INTO USER VALUES(?,?)";
