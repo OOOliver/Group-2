@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dubbo-consumer-web"
+  id="myeclipse.1516180072596"
+  context-root="/dubbo-consumer-web"
+  j2ee-spec="6.0"
+  archive="dubbo-consumer-web.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
